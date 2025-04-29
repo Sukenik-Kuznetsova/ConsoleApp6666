@@ -13,7 +13,7 @@ namespace ConsoleApp6666
             Double x, f;
             Console.Write("Введите х= ");
             x = Convert.ToDouble(Console.ReadLine());
-           
+            f = 8 * Math.Sin(2 * x) - Math.Cos(2 * x);
         }
     }
 }
