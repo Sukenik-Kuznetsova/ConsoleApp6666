@@ -14,6 +14,7 @@ namespace ConsoleApp6666
             Console.Write("Введите х= ");
             x = Convert.ToDouble(Console.ReadLine());
             f = 8 * Math.Sin(2 * x) - Math.Cos(2 * x);
+            Console.WriteLine($"Для значения х = { x}, F = { f}.");
         }
     }
 }
