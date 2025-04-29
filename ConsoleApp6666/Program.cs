@@ -10,6 +10,10 @@ namespace ConsoleApp6666
     {
         static void Main(string[] args)
         {
+            Double x, f;
+            Console.Write("Введите х= ");
+            x = Convert.ToDouble(Console.ReadLine());
+           
         }
     }
 }
